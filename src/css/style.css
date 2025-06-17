@@ -1,0 +1,33 @@
+body {
+    background-color: #788475;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cabecalho {
+    background-color: #8daa91;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.cabecalho img {
+    width: 45px;
+    height: auto;
+    margin: auto;
+}
+
+.rodape {
+    background-color: aqua;
+}
+
+.container-foto {
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto {
+    
+}
