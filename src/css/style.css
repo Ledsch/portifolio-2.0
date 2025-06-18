@@ -1,6 +1,16 @@
+/* ERRO O CABECALHO E RODAPE NÃO ESTÃO A COR NÃO ESTÁ COBRINDO A PAGINA INEIRA
+ERRO AO COLOCAR O MOUSE AO LADO ESQUERDO OU DIREITO DA IMAGEN DE PERFIL APARECE UMA LINHA BRANCO - REMOVER ESSA LINHA  */
+
+
+html {
+    color: aliceblue;
+}
+
 body {
     background-color: #788475;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+    max-width: 1120px;
 }
 
 .cabecalho {
@@ -8,26 +18,62 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
-}
-
-.cabecalho img {
-    width: 45px;
+    padding: 15px 10px;
     height: auto;
-    margin: auto;
 }
 
-.rodape {
-    background-color: aqua;
+.cabecalho .logo {
+    width: 60px;
+    height: 60px;
 }
 
 .container-foto {
+    max-width: 550px;
+    border-radius: 50%;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin: 0 auto;
+}
+
+.container-foto .foto-perfil img{
+    width: 100%;
+    border-radius: 50%;
+    background: linear-gradient(to right, #8daa91, #788475, #5e5d5c);
+}
+
+.redes-social{
     display: flex;
+    gap: 20px;
     justify-content: center;
     align-items: center;
 }
 
-.foto {
-    
+.redes-social a i{
+    border: 1px solid aliceblue;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    font-size: 26px;
 }
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    letter-spacing: 2px;
+    padding: 0 15px;
+}
+
+.rodape{
+    background-color: #8daa91;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 60px;
+}
+
