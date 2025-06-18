@@ -1,0 +1,50 @@
+html {
+    color: aliceblue;
+}
+
+body {
+    background-color: #788475;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+    max-width: 1120px;
+}
+
+.cabecalho {
+    background-color: #8daa91;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 10px;
+    height: auto;
+}
+
+.cabecalho .logo {
+    width: 60px;
+    height: 60px;
+}
+
+.imagen {
+    max-width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.texto {
+    display: flex;
+    padding: 15px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 26px;
+    color: aliceblue;
+}
+
+ul {
+    font-size: 26px;
+    justify-items: center;
+    color: aliceblue;
+    padding: 35px;
+    margin: 0 auto;
+
+}
