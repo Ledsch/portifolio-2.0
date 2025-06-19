@@ -6,15 +6,13 @@ body {
     background-color: #788475;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0 auto;
-    max-width: 1120px;
+    width: 100%;
 }
 
 .cabecalho {
     background-color: #8daa91;
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 15px 10px;
     height: auto;
 }
 
@@ -22,7 +20,7 @@ body {
     width: 60px;
     height: 60px;
 }
-
+/* deixar o margin em auto para centralizar a imagen */
 .imagen {
     max-width: 220px;
     display: flex;
@@ -31,7 +29,7 @@ body {
     margin: 0 auto;
 }
 
-.texto {
+.texto-descricao {
     display: flex;
     padding: 15px;
     margin: 0 auto;
@@ -47,4 +45,17 @@ ul {
     padding: 35px;
     margin: 0 auto;
 
+}
+
+/* deixa o radape sempre a mostra mesmo que scrol a página para baixo para mostra as informaçoes do RU e ano*/
+.rodape {
+    background-color: #8daa91;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }

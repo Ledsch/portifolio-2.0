@@ -1,7 +1,3 @@
-/* ERRO O CABECALHO E RODAPE NÃO ESTÃO A COR NÃO ESTÁ COBRINDO A PAGINA INEIRA
-ERRO AO COLOCAR O MOUSE E clique AO LADO ESQUERDO OU DIREITO DA IMAGEN DE PERFIL APARECE UMA LINHA BRANCO - REMOVER ESSA LINHA  */
-
-
 html {
     color: aliceblue;
 }
@@ -10,16 +6,15 @@ body {
     background-color: #788475;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0 auto;
-    max-width: 1120px;
+    width: 100%;
 }
+
 
 .cabecalho {
     background-color: #8daa91;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 15px 10px;
-    height: auto;
 }
 
 .cabecalho .logo {
@@ -37,20 +32,20 @@ body {
     margin: 0 auto;
 }
 
-.container-foto .foto-perfil img{
+.container-foto .foto-perfil img {
     width: 100%;
     border-radius: 50%;
     background: linear-gradient(to right, #8daa91, #788475, #5e5d5c);
 }
 
-.redes-social{
+.redes-social {
     display: flex;
     gap: 20px;
     justify-content: center;
     align-items: center;
 }
 
-.redes-social a i{
+.redes-social a i {
     border: 1px solid aliceblue;
     border-radius: 50%;
     width: 50px;
@@ -69,11 +64,14 @@ p {
     padding: 0 15px;
 }
 
-.rodape{
+.rodape {
     background-color: #8daa91;
     display: flex;
     justify-content: center;
     padding: 20px;
-    margin-top: 60px;
+    width: 100%;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
-
